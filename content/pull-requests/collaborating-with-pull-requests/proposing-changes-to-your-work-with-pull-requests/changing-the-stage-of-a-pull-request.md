@@ -46,7 +46,11 @@ You can convert a pull request to a draft at any time. For example, if you accid
   ![Convert to draft link](/assets/images/help/pull_requests/convert-to-draft-link.png)
 4. Click **Convert to draft**.
   ![Convert to draft confirmation](/assets/images/help/pull_requests/convert-to-draft-dialog.png)
+nuget mirror packages.config  https://MyRepo/nuget https://MyRepo/api/v2/package -source https://nuget.org/api/v2 -apikey myApiKey -nocache
 
+nuget mirror Microsoft.AspNet.Mvc https://MyRepo/nuget https://MyRepo/api/v2/package -version 4.0.20505.0
+
+nuget mirror Microsoft.Net.Http https://MyRepo/nuget https://MyRepo/api/v2/package -prerelease
 {% endif %}
 
 ## Further reading
